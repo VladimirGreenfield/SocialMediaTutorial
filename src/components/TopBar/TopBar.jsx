@@ -1,4 +1,7 @@
 import { Search, Person, Chat, Notifications } from "@material-ui/icons";
+import "./TopBar.css";
+
+
 
 function TopBar() {
     return(
@@ -8,14 +11,16 @@ function TopBar() {
             </div>
             <div className="topbarCenter">
                 <div className="searchBar">
-                    <Search />
+                    <Search className="searchIcon" />
                     <div placeholder="Search for friends or posts" className="searchImput"></div>
                 </div>
             </div>
             <div className="topbarRight">
                 <div className="topbarLinks">
-                    <span className="topbarLink">Homepage</span>
-                    <span className="topbarLink">Timeline</span>
+                    <span className="topbarLink">Home</span>
+                    <span className="topbarLink">Friends</span>
+                    <span className="topbarLink">Posts</span>
+                    <span className="topbarLink">Logout</span>
                 </div>
                 <div className="topbarIcons">
                     <div className="topbarIconItem">
