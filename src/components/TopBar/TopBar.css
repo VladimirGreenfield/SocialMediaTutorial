@@ -63,6 +63,10 @@
     cursor: pointer;
 }
 
+.topbarLink:hover{
+    color: rgb(0, 255, 0);
+}
+
 .topbarIcons{
     display: flex;
 }
@@ -71,6 +75,10 @@
     margin-right: 15px;
     cursor: pointer;
     position: relative;
+}
+
+.topbarIconItem:hover{
+    color: rgb(0, 255, 0);
 }
 
 .topbarIconBadge{
